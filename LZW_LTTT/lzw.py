@@ -1,3 +1,11 @@
+'''
+    Project: LZW Compression & Decompression Tool
+    To fulfil the requirement of FIT Course by Pham@PTIT
+    Nguyen Thanh Trung - B23DCCN861 - group 12
+    Dang Phi Long - B23DCCN497 - group 12
+    Tran Trung Kien - B23DCCN469 - group 12
+    Pham Anh Tu - B23DCCN875 - group 12   
+'''
 def lzw_compress(uncompressed: bytes) -> list:
     """Compress a string to a list of output symbols."""
     dict_size = 256
